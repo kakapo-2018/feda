@@ -12,7 +12,7 @@ router.get('/restaurants', function(req,res){
 })
 
 
-router.get('/restaurants/submit', function(req,res){
+router.get('/submit', function(req,res){
     res.render('restaurants/submit', data)
 })
 
@@ -24,5 +24,6 @@ router.get('/restaurants/:id', (req, res) => {
 
     res.render('restaurants/view', found)
   })
+  
 
 module.exports = router

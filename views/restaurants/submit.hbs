@@ -1,10 +1,14 @@
-<form class="form" action="/puppies/edit/{{id}}" method="post">
+<form class="form" action="restaurants{{id}}" accept-charset="UTF-8" method="post">
   
+
+
+  <div><input type="hidden" name="id" value="{{id}}"/></div>
+
   <label for="name" class="form-item">
     Name:
     <input type="text" name="name" value="{{name}}">
   </label>
-  
+    
   <label for="breed" class="form-item">
     Description:
     <input type="text" name="breed" value="{{breed}}">
@@ -27,12 +31,5 @@
   
   
   <input type="submit" name="" value="Submit">
+  <div id="back"> <a href="/restaurants">nevermind</a></div>
 </form>
-
-
-"id": 1,
-        "name": "Nandos",
-        "description": "African, Portueges, Grill cuisine. Peri-peri chicken, take-away and dine in. Vegetarian friendly, Gluten free options.",
-        "image": "/images/nandos.jpg",
-        "review": " As a spicy-lover and a chicken-lover, I always enjoy my meal experiences at Nandos and it was the same here. Tried Chicken Pita meal and 1/4 Chicken w/ PERi PERi Chips. Liked it with spicy PERi PERi sauce as always :)",
-        "rating": "☆☆☆☆☆"

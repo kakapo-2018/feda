@@ -6,7 +6,7 @@
         "description": "African, Portueges, Grill cuisine. Peri-peri chicken, take-away and dine in. Vegetarian friendly, Gluten free options.",
         "image": "/images/nandos.jpg",
         "review": " As a spicy-lover and a chicken-lover, I always enjoy my meal experiences at Nandos and it was the same here. Tried Chicken Pita meal and 1/4 Chicken w/ PERi PERi Chips. Liked it with spicy PERi PERi sauce as always :)",
-        "rating": "5"
+        "rating": "☆☆☆☆☆"
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "description": "Vietnamese",
         "image": "/images/puppy1.jpg",
         "review": "Value for money. Pho was really delicious! This place is known for one thing- the pho. My partner ordered the Combination fish pho and as much as I loved my Been pho There was a touch of food ennvy, I could really taste the beef bones and marrow that have been boiling for hours and hours. Excellent, bringing a taste of Vietnam to Wellington.",
-        "rating": "4/5"
+        "rating": "☆☆☆☆"
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "description": "Cheap Malaysian cuisine",
         "image": "/images/kk.jpg",
         "review": " Great taste - the food came out within 2 mins",
-        "rating": "5"
+        "rating": "☆☆☆☆☆"
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "description": "We serve a variety of food for dinner ranging from $28 to $44 for mains. Mains includes beef sirloin or fillet steak, Bacon wrapped chicken breast, Pork Belly, St Louis Ribs and Sumac Seasoned market fish.",
         "image": "/images/puppy1.jpg",
         "review": "If you are feed up with going to a restaurant where you pay a lot and don't get much food in return, then this is the restaurant for you. Shephard Arms provides good filling meals and along with a nice relaxed atmosphere, with the option of watching sport will make you feel like you have had a good evening out with family and friends. Great friendly service to look after your stay",
-        "rating": "df"
+        "rating": "☆☆☆☆☆"
     }
     ]
 }

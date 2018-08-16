@@ -83,3 +83,16 @@ body {
     float: right;
    display: flex;
 }
+
+/* view page */
+
+.img-circle {
+    width: 50%;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif
+}

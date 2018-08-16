@@ -1,0 +1,36 @@
+{
+    "restaurants": [
+    {
+        "id": 1,
+        "name": "Nandos",
+        "description": "gfhfgh",
+        "image": "/images/puppy1.jpg",
+        "review": "f",
+        "rating": "df"
+    },
+    {
+        "id": 1,
+        "name": "Nandos",
+        "description": "gfhfgh",
+        "image": "/images/puppy1.jpg",
+        "review": "f",
+        "rating": "df"
+    },
+    {
+        "id": 1,
+        "name": "Nandos",
+        "description": "gfhfgh",
+        "image": "/images/puppy1.jpg",
+        "review": "f",
+        "rating": "df"
+    },
+    {
+        "id": 1,
+        "name": "Nandos",
+        "description": "gfhfgh",
+        "image": "/images/puppy1.jpg",
+        "review": "f",
+        "rating": "df"
+    }
+    ]
+}

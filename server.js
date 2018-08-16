@@ -12,4 +12,9 @@ server.set('view engine', 'hbs')
 server.use(express.static('public'))
 server.use(express.urlencoded({extended: false}))
 
+
+server.get('/', function(req, res) {
+    res.send("Hi FEDA")
+})
+
 module.exports = server

@@ -9,12 +9,12 @@
         "rating": "df"
     },
     {
-        "id": 1,
-        "name": "Nandos",
-        "description": "gfhfgh",
+        "id": 2,
+        "name": "Mekong Cafe",
+        "description": "Vietnamese",
         "image": "/images/puppy1.jpg",
-        "review": "f",
-        "rating": "df"
+        "review": "Value for money. Pho was really delicious! This place is known for one thing- the pho. My partner ordered the Combination fish pho and as much as I loved my Been pho There was a touch of food ennvy, I could really taste the beef bones and marrow that have been boiling for hours and hours. Excellent, bringing a taste of Vietnam to Wellington.",
+        "rating": "4/5"
     },
     {
         "id": 1,

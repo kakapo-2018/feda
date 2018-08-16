@@ -6,16 +6,16 @@
   "author": "kyokopl <kmpohe@gmail.com>",
   "license": "MIT",
   "scripts": {
-  "debug": "nodemon --inspect index --ignore data.json",
-  "test": "jest --watchAll --noStackTrace",
-  "start": "node index"
-},
-"dependencies": {
-  "express": "^4.16.2",
-  "express-handlebars": "^3.0.0"
-},
-"devDependencies": {
-  "jest": "^22.0.6",
-  "nodemon": "^1.14.11"
+    "debug": "nodemon --inspect index --ignore data.json",
+    "test": "jest --watchAll --noStackTrace",
+    "start": "node index"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.0.6",
+    "nodemon": "^1.14.11"
   }
 }

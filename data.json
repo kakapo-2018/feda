@@ -3,10 +3,10 @@
     {
         "id": 1,
         "name": "Nandos",
-        "description": "gfhfgh",
-        "image": "/images/puppy1.jpg",
-        "review": "f",
-        "rating": "df"
+        "description": "African, Portueges, Grill cuisine. Peri-peri chicken, take-away and dine in. Vegetarian friendly, Gluten free options.",
+        "image": "/images/nandos.jpg",
+        "review": " As a spicy-lover and a chicken-lover, I always enjoy my meal experiences at Nandos and it was the same here. Tried Chicken Pita meal and 1/4 Chicken w/ PERi PERi Chips. Liked it with spicy PERi PERi sauce as always :)",
+        "rating": "5"
     },
     {
         "id": 2,
@@ -17,15 +17,15 @@
         "rating": "4/5"
     },
     {
-        "id": 1,
-        "name": "Nandos",
-        "description": "gfhfgh",
-        "image": "/images/puppy1.jpg",
-        "review": "f",
-        "rating": "df"
+        "id": 3,
+        "name": "KK Malaysian Restaurant",
+        "description": "Cheap Malaysian cuisine",
+        "image": "/images/kk.jpg",
+        "review": " Great taste - the food came out within 2 mins",
+        "rating": "5"
     },
     {
-        "id": 1,
+        "id": 4,
         "name": "Nandos",
         "description": "gfhfgh",
         "image": "/images/puppy1.jpg",

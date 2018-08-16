@@ -10,8 +10,10 @@ router.get('/', function(req,res){
 router.get('/restaurants', function(req,res){
     res.render('restaurants/index', data)
 })
-// router.get('/restaurants', function(req,res){
-//     res.render('restaurants/index', data)
-// })
+
+
+router.get('/restaurants/submit', function(req,res){
+    res.render('restaurants/submit', data)
+})
 
 module.exports = router

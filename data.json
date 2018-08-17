@@ -41,20 +41,22 @@
       "_locals": {}
     },
     {
-      "id": 5,
-      "name": "Boulcott Street Bistro",
-      "description": "Kiwi, European cuisine",
-      "image": "http://boulcottstreetbistro.co.nz/wp-content/uploads/2016/07/Boulcott-st-bistro-entree-wellington-restaurant.jpg",
-      "review": "A bit disappointed with overcooked fish. The setting of the restaurant is good. I ordered the today's fish (King Fish, $37), which was overcooked. I advised the waiter and no one followed up.",
-      "rating": "☆☆☆"
-    },
-    {
       "id": 6,
       "name": "Kyokos Cooking",
       "description": "Yum Food",
       "image": "https://qpr2l7.imagenii.com/static2.seenice.com/image_uploader/photos/f1/large/deli-bo-nice-food.jpg?f=q(v=.8)&auth=3e694da86f7cdae779c9c57a3a3567dade09988f",
       "review": "Was alight",
-      "rating": "☆☆☆☆"
+      "rating": "☆☆☆☆",
+      "rank": 5
+    },
+    {
+      "id": 5,
+      "name": "Boulcott Street Bistro",
+      "description": "Kiwi, European cuisine",
+      "image": "http://boulcottstreetbistro.co.nz/wp-content/uploads/2016/07/Boulcott-st-bistro-entree-wellington-restaurant.jpg",
+      "review": "A bit disappointed with overcooked fish. The setting of the restaurant is good. I ordered the today's fish (King Fish, $37), which was overcooked. I advised the waiter and no one followed up.",
+      "rating": "☆☆☆",
+      "rank": 6
     }
   ],
   "_locals": {}

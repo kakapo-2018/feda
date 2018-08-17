@@ -8,7 +8,7 @@ router.get('/', function(req,res){
 })
 
 router.get('/restaurants', function(req,res){
-    res.render('restaurants/index', data)
+    res.render('restaurants/index', getData())
 })
 
 
@@ -42,6 +42,14 @@ router.get('/restaurants/:id', (req, res) => {
   })
 
 
-  
+function getData(){
+    let arr = data.restaurants.sort((a,b) => {
+        return b.rating.length-a.rating.length
+    }).map((r,i) => {
+        r.rank = i+1
+        return r
+    })
+    return { restaurants: arr }
+}
 
 module.exports = router

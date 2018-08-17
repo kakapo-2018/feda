@@ -86,13 +86,25 @@ body {
 
 /* view page */
 
-.img-circle {
-    width: 50%;
-    text-align: center;
-
+.restaurant {
+   margin: auto;
+   width: 50%;
 }
+
+.img-circle {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50%;
+    height: 300px;
+    padding: 5% 25%;
+  }
 
 h2 {
     font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px #ffd900, 2px 2px #ffd900,2px 2px #ffd900;
+}
+.writing{
+    font-size: 30px;
+    padding: 2% 0%
 }

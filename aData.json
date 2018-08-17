@@ -1,0 +1,17 @@
+{
+  "announcement": [
+    {
+      "id": 1,
+      "name": "FEDA",
+      "subject": "Announcement",
+      "description": "Hi everyone, this is our first announcement.",
+      "_locals": {}
+    },
+    {
+      "id": 2,
+      "subject": "Announcementfghghjfg",
+      "description": "Hi everyone, this is our first announcement.jjhf",
+      "name": "FEDAfghjfghj"
+    }
+  ]
+}

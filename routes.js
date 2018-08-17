@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const data = require('./data.json')
+const aData = require('./adata.json')
 const fs = require('fs')
 
 router.get('/', function(req,res){
@@ -32,6 +33,9 @@ router.post('/restaurants', function(req, res)  {
     })    
 })
 
+router.get('/restaurants/announcement', function(req,res){
+    res.render('restaurants/announcement', aData.announcement[0])
+})
 
 router.get('/restaurants/:id', (req, res) => {
     const restId = req.params.id

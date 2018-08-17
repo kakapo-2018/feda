@@ -1,5 +1,32 @@
 <div class="announcement">
-  <img class="annImage" src="/images/announcement.jpg">
-{{!-- Displaying the announcement
-and make a submission form --}}
+  <div class = "writing"><strong>Subject:</strong> {{subject}}</n></div>
+  <div class = "writing"><strong>Description:</strong> {{description}}</n></div>
+  <div class = "writing"><strong>Name:</strong> {{name}}</div>
 </div>
+
+      <div style="padding:2% 2%; margin:0%">
+      <a class="nav" href="/">Home</a>
+      </div>
+
+<form class="form" action="restaurants{{id}}" accept-charset="UTF-8" method="post">
+
+  <div><input type="hidden" name="id" value={{id}}/></div>
+
+  <label for="subject" class="form-item">
+    Subject:
+    <input type="text" name="subject" value="{{subject}}">
+   </label>
+
+  <label for="description" class="form-item">
+    Description:
+    <input type="text" name="description" value="{{description}}">
+  </label>
+
+  <label for="name" class="form-item">
+    Name:
+    <input type="text" name="name" value="{{name}}">
+  </label>
+  
+  <input type="submit" name="" value="Submit">
+  <div id="back"> <a href="/restaurants">nevermind</a></div>
+</form>

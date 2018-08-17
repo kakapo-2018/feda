@@ -1,0 +1,8 @@
+{
+  "announcement":[{
+    "id":1,
+    "name": "FEDA",
+    "subject":"Announcement",
+    "description":"Hi everyone, this is our first announcement."
+  }]
+}

@@ -37,6 +37,23 @@ router.get('/restaurants/announcement', function(req,res){
     res.render('restaurants/announcement', aData.announcement[0])
 })
 
+router.post('/restaurants/announcement', function(req, res)  {
+    let announcementSubmit = req.body
+
+    let announcementNextId = aData.announcement.length+1
+    announcement.id = announcementNextId
+
+    aData.announcement.push(announcementSubmit)
+
+    fs.writeFile('aData.json', JSON.stringify(aData, null, 2), (err) => {
+        console.log('err', err)
+        if (err) res.send('Not OK')
+        if (!err) res.redirect('/')   
+
+    })    
+})
+
+
 router.get('/restaurants/:id', (req, res) => {
     const restId = req.params.id
     const found = data.restaurants.find(function(rests) {

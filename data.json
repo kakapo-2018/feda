@@ -6,15 +6,9 @@
       "description": "African, Portueges, Grill cuisine. Peri-peri chicken, take-away and dine in. Vegetarian friendly, Gluten free options.",
       "image": "/images/nandos.jpg",
       "review": " As a spicy-lover and a chicken-lover, I always enjoy my meal experiences at Nandos and it was the same here. Tried Chicken Pita meal and 1/4 Chicken w/ PERi PERi Chips. Liked it with spicy PERi PERi sauce as always :)",
-      "rating": "☆☆☆☆☆"
-    },
-    {
-      "id": 2,
-      "name": "Mekong Cafe",
-      "description": "Vietnamese",
-      "image": "/images/mekong.jpg",
-      "review": "Value for money. Pho was really delicious! This place is known for one thing- the pho. My partner ordered the Combination fish pho and as much as I loved my Been pho There was a touch of food ennvy, I could really taste the beef bones and marrow that have been boiling for hours and hours. Excellent, bringing a taste of Vietnam to Wellington.",
-      "rating": "☆☆☆☆"
+      "rating": "☆☆☆☆☆",
+      "_locals": {},
+      "rank": 1
     },
     {
       "id": 3,
@@ -22,7 +16,9 @@
       "description": "Cheap Malaysian cuisine",
       "image": "/images/kk.jpg",
       "review": " Great taste - the food came out within 2 mins",
-      "rating": "☆☆☆☆☆"
+      "rating": "☆☆☆☆☆",
+      "rank": 2,
+      "_locals": {}
     },
     {
       "id": 4,
@@ -30,7 +26,36 @@
       "description": "We serve a variety of food for dinner ranging from $28 to $44 for mains. Mains includes beef sirloin or fillet steak, Bacon wrapped chicken breast, Pork Belly, St Louis Ribs and Sumac Seasoned market fish.",
       "image": "/images/shepherds.jpg",
       "review": "If you are feed up with going to a restaurant where you pay a lot and don't get much food in return, then this is the restaurant for you. Shepherds Arms provides good filling meals and along with a nice relaxed atmosphere, with the option of watching sport will make you feel like you have had a good evening out with family and friends. Great friendly service to look after your stay",
-      "rating": "☆☆☆☆☆"
-    }    
-  ]
+      "rating": "☆☆☆☆☆",
+      "rank": 3,
+      "_locals": {}
+    },
+    {
+      "id": 2,
+      "name": "Mekong Cafe",
+      "description": "Vietnamese",
+      "image": "/images/mekong.jpg",
+      "review": "Value for money. Pho was really delicious! This place is known for one thing- the pho. My partner ordered the Combination fish pho and as much as I loved my Been pho There was a touch of food ennvy, I could really taste the beef bones and marrow that have been boiling for hours and hours. Excellent, bringing a taste of Vietnam to Wellington.",
+      "rating": "☆☆☆☆",
+      "rank": 4,
+      "_locals": {}
+    },
+    {
+      "id": 5,
+      "name": "Boulcott Street Bistro",
+      "description": "Kiwi, European cuisine",
+      "image:": "https://www.zomato.com/photos/pv-res-7100464-r_MQNDg4Njk2MjAz",
+      "review": "A bit disappointed with overcooked fish. The setting of the restaurant is good. I ordered the today's fish (King Fish, $37), which was overcooked. I advised the waiter and no one followed up.",
+      "rating": "☆☆☆"
+    },
+    {
+      "id": 6,
+      "name": "Kyokos Cooking",
+      "description": "Yum Food",
+      "image:": "https://qpr2l7.imagenii.com/static2.seenice.com/image_uploader/photos/f1/large/deli-bo-nice-food.jpg?f=q(v=.8)&auth=3e694da86f7cdae779c9c57a3a3567dade09988f",
+      "review": "Was alight",
+      "rating": "☆☆☆☆"
+    }
+  ],
+  "_locals": {}
 }

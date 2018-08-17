@@ -20,7 +20,8 @@ router.post('/restaurants', function(req, res)  {
     let restaurantSubmit = req.body
 
     let restaurantNextId = data.restaurants.length+1
-    restaurantid = restaurantNextId
+    restaurants.id = restaurantNextId
+
     data.restaurants.push(restaurantSubmit)
 
     fs.writeFile('data.json', JSON.stringify(data, null, 2), (err) => {
